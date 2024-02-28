@@ -111,27 +111,27 @@ Exit the Terminal to Learn More
 
 export const mediaIcons = [{
         title: "Resume",
-        imgPath: "/assets/icons/resume.png",
+        imgPath: "../assets/icons/resume.png",
         imgAlt: "Resume Icon",
         url: "/resume.pdf"
     }, {
         title: "GitHub",
-        imgPath: "/assets/icons/github.png",
+        imgPath: "../assets/icons/github.png",
         imgAlt: "GitHub Icon",
         url: "https://github.com/tiffanyfu7/"
     }, {
         title: "LinkedIn",
-        imgPath: "/assets/icons/linkedin.png",
+        imgPath: "../assets/icons/linkedin.png",
         imgAlt: "LinkedIn Icon",
         url: "https://www.linkedin.com/in/tiffanyfu7/"
     }, {
         title: "YouTube",
-        imgPath: "/assets/icons/youtube.png",
+        imgPath: "../assets/icons/youtube.png",
         imgAlt: "YouTube Icon",
         url: "https://www.youtube.com/@tiffanyfu"
     }, {
         title: "Substack",
-        imgPath: "/assets/icons/substack.png",
+        imgPath: "../assets/icons/substack.png",
         imgAlt: "Substack Icon",
         url: "https://substack.com/@tiffanyfu"
     }
