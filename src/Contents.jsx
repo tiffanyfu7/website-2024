@@ -1,7 +1,9 @@
+export const repo = "website-2024"
+
 export const projectsList = [{
         title: "💧 WaterBoy",
         description: "An AI-Powered ChatBot for Babylon Micro-Farms built using React and Assistants API",
-        imgPath: "${process.env.PUBLIC_URL}/assets/images/babylon.png",
+        imgPath: repo + "/assets/images/babylon.png",
         imgAlt: "WaterBoy Homepage",
         tags: ["React", "OpenAI", "Git"],
         url: "https://github.com/tiffanyfu7/babylon-microfarms-chatbot",
@@ -9,7 +11,7 @@ export const projectsList = [{
     }, {
         title: "🚗 TripSplit",
         description: "A hackathon project to track, calculate, and display shared expenses on a group trip.",
-        imgPath: "${process.env.PUBLIC_URL}/assets/images/tripsplit.png",
+        imgPath: repo + "/assets/images/tripsplit.png",
         imgAlt: "TripSplit Homepage",
         tags: ["HTML/CSS/JS", "Firebase"],
         url: "https://github.com/tiffanyfu7/devfestproject",
@@ -17,10 +19,10 @@ export const projectsList = [{
     }, {
         title: "🖼️ Media Portfolio",
         description: "A compilation of my media and communications passion projects.",
-        imgPath: "${process.env.PUBLIC_URL}/assets/images/cnwt.JPG",
+        imgPath: repo + "/assets/images/cnwt.JPG",
         imgAlt: "A Graphic Design",
         tags: ["Adobe", "Design", "Video"],
-        url: "/portfolio.pdf",
+        url: repo + "/portfolio.pdf",
         urlType: "Portfolio"
     }
 ]
@@ -111,32 +113,32 @@ Exit the Terminal to Learn More
 
 export const mediaIcons = [{
         title: "Resume",
-        imgPath: "${process.env.PUBLIC_URL}/assets/icons/resume.png",
+        imgPath: repo + "/assets/icons/resume.png",
         imgAlt: "Resume Icon",
-        url: "/resume.pdf"
+        url: repo + "/resume.pdf"
     }, {
         title: "GitHub",
-        imgPath: "${process.env.PUBLIC_URL}/assets/icons/github.png",
+        imgPath: repo + "/assets/icons/github.png",
         imgAlt: "GitHub Icon",
         url: "https://github.com/tiffanyfu7/"
     }, {
         title: "LinkedIn",
-        imgPath: "${process.env.PUBLIC_URL}/assets/icons/linkedin.png",
+        imgPath: repo + "/assets/icons/linkedin.png",
         imgAlt: "LinkedIn Icon",
         url: "https://www.linkedin.com/in/tiffanyfu7/"
     }, {
         title: "YouTube",
-        imgPath: "${process.env.PUBLIC_URL}/assets/icons/youtube.png",
+        imgPath: repo + "/assets/icons/youtube.png",
         imgAlt: "YouTube Icon",
         url: "https://www.youtube.com/@tiffanyfu"
     }, {
         title: "Substack",
-        imgPath: "${process.env.PUBLIC_URL}/assets/icons/substack.png",
+        imgPath: repo + "/assets/icons/substack.png",
         imgAlt: "Substack Icon",
         url: "https://substack.com/@tiffanyfu"
     }
 ]
 
-export const projImg = "${process.env.PUBLIC_URL}/assets/icons/projects.png"
-export const termImg = "${process.env.PUBLIC_URL}/assets/icons/terminal.png"
-export const mailImg = "${process.env.PUBLIC_URL}/assets/icons/mail.png"
+export const projImg = repo + "/assets/icons/projects.png"
+export const termImg = repo + "/assets/icons/terminal.png"
+export const mailImg = repo + "/assets/icons/mail.png"
