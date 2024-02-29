@@ -1,9 +1,7 @@
-export const repo = "website-2024"
-
 export const projectsList = [{
         title: "💧 WaterBoy",
         description: "An AI-Powered ChatBot for Babylon Micro-Farms built using React and Assistants API",
-        imgPath: repo + "/assets/images/babylon.png",
+        imgPath: "./assets/images/babylon.png",
         imgAlt: "WaterBoy Homepage",
         tags: ["React", "OpenAI", "Git"],
         url: "https://github.com/tiffanyfu7/babylon-microfarms-chatbot",
@@ -11,7 +9,7 @@ export const projectsList = [{
     }, {
         title: "🚗 TripSplit",
         description: "A hackathon project to track, calculate, and display shared expenses on a group trip.",
-        imgPath: repo + "/assets/images/tripsplit.png",
+        imgPath: "./assets/images/tripsplit.png",
         imgAlt: "TripSplit Homepage",
         tags: ["HTML/CSS/JS", "Firebase"],
         url: "https://github.com/tiffanyfu7/devfestproject",
@@ -19,10 +17,10 @@ export const projectsList = [{
     }, {
         title: "🖼️ Media Portfolio",
         description: "A compilation of my media and communications passion projects.",
-        imgPath: repo + "/assets/images/cnwt.JPG",
+        imgPath: "./assets/images/cnwt.JPG",
         imgAlt: "A Graphic Design",
         tags: ["Adobe", "Design", "Video"],
-        url: repo + "/portfolio.pdf",
+        url: "./portfolio.pdf",
         urlType: "Portfolio"
     }
 ]
@@ -113,32 +111,32 @@ Exit the Terminal to Learn More
 
 export const mediaIcons = [{
         title: "Resume",
-        imgPath: repo + "/assets/icons/resume.png",
+        imgPath: "./assets/icons/resume.png",
         imgAlt: "Resume Icon",
-        url: repo + "/resume.pdf"
+        url: "./resume.pdf"
     }, {
         title: "GitHub",
-        imgPath: repo + "/assets/icons/github.png",
+        imgPath: "./assets/icons/github.png",
         imgAlt: "GitHub Icon",
         url: "https://github.com/tiffanyfu7/"
     }, {
         title: "LinkedIn",
-        imgPath: repo + "/assets/icons/linkedin.png",
+        imgPath: "./assets/icons/linkedin.png",
         imgAlt: "LinkedIn Icon",
         url: "https://www.linkedin.com/in/tiffanyfu7/"
     }, {
         title: "YouTube",
-        imgPath: repo + "/assets/icons/youtube.png",
+        imgPath: "./assets/icons/youtube.png",
         imgAlt: "YouTube Icon",
         url: "https://www.youtube.com/@tiffanyfu"
     }, {
         title: "Substack",
-        imgPath: repo + "/assets/icons/substack.png",
+        imgPath: "./assets/icons/substack.png",
         imgAlt: "Substack Icon",
         url: "https://substack.com/@tiffanyfu"
     }
 ]
 
-export const projImg = repo + "/assets/icons/projects.png"
-export const termImg = repo + "/assets/icons/terminal.png"
-export const mailImg = repo + "/assets/icons/mail.png"
+export const projImg = "./assets/icons/projects.png"
+export const termImg = "./assets/icons/terminal.png"
+export const mailImg = "./assets/icons/mail.png"
