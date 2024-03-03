@@ -1,6 +1,6 @@
 # 👩🏻‍💻 2024 Personal Website
 
-<a href="https://tiffanyfu7.github.io/website-2024/" target="_blank"> Tiffany Fu Personal Website </a> <br>
+<a href="https://tiffanyfu.me" target="_blank"> Tiffany Fu Personal Website </a> <br>
 Better Documentation to come...
 
 #### Future Ideas
