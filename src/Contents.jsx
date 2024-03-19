@@ -49,7 +49,7 @@ export const CurrentPoints = () => {
     return (
         <ul style={{ listStyleType: "none", padding:"0"}} >
           <li>⛰️ Studying Abroad at HKUST</li>
-          <li>📹 Storytelling + Open Building + Filmmaking on <span> </span>
+          <li>📹 Storytelling on <span> </span>
             <a href="https://www.youtube.com/@tiffanyfu" target="_blank">YouTube</a>
           </li>
           <li>🏃🏻‍♀️ <a>Training</a> for the NYC Marathon</li>
@@ -99,8 +99,8 @@ In the past I've taken: Advanced Systems Programming, DSA, Discrete Math, MTV Ca
 
 tiffanyfu@TFHUB:~$ cat Current-Projects
 My current CS Tinkerings
-~ Adding Guest Book to GitHub profile
-~ Building a Crossword Puzzle Generator
+~ Spotify Alarm App on React Native
+~ Building a JS Crossword Puzzle Generator
 ~ Learning Unreal Engine
 
 tiffanyfu@TFHUB:~$ exit
