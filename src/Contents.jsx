@@ -30,7 +30,6 @@ export const factsList = [
     "Mike Pence and Chuck Taylor went to my high school",
     "Hats are my favorite accessories",
     "I play the violin, alto-saxophone, and guitar",
-    "I have mild scoliosis :(",
     "I love ice cream and chocolate chip cookies",
     "I have great music taste",
     "Everything Everywhere All at Once is my favorite movie"
@@ -42,13 +41,16 @@ export const readingList = [{
     }, {
         title:"Range: Why Generalists Triumph in a Specialized World",
         author:"David Epstein"
+    }, {
+        title:"Norwegian Wood",
+        author:"Haruki Murakami"
     }
 ]
 
 export const CurrentPoints = () => {
     return (
         <ul style={{ listStyleType: "none", padding:"0"}} >
-          <li>⛰️ Studying Abroad at HKUST</li>
+          <li>⚡ Full-Stack Intern at Voltus, Inc.</li>
           <li>📹 Storytelling on <span> </span>
             <a href="https://www.youtube.com/@tiffanyfu" target="_blank">YouTube</a>
           </li>
@@ -85,12 +87,14 @@ export const TerminalHeader = () => {
 
 export const TerminalConstants = () => {
     return (<pre>{`tiffanyfu@TFHUB:~$ whoami
-I am a second year CS student at Columbia University!
-I am interested in HCI + AI.
-I also enjoy playing tennis, listening to music, and traveling. 
+I am a third year CS student at Columbia University!
+I am currently interning @ Voltus.
+I am interested in SWE + HCI + AI.
+I also enjoy playing tennis + listening to music + traveling.
 
 tiffanyfu@TFHUB:~$ cat Current-Classes
-I am taking the following classes abroad at HKUST
+Currently an AI/ML Fellow at Break Through Tech
+Last semester I took
  🖥️ Operating Systems
  🤖 Exploring Artificial Intelligence
  🦾 Human-Computer Interaction
@@ -99,7 +103,6 @@ In the past I've taken: Advanced Systems Programming, DSA, Discrete Math, MTV Ca
 
 tiffanyfu@TFHUB:~$ cat Current-Projects
 My current CS Tinkerings
-~ Spotify Alarm App on React Native
 ~ Building a JS Crossword Puzzle Generator
 ~ Learning Unreal Engine
 

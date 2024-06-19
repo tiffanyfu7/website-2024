@@ -32,12 +32,14 @@ export const Contact = () => {
             <div id="contact" className = "window">
                 <Bar setParent={wrapperOpen} title="Contact"/>
                 <div id="contact-contents">
-                    <h1>Let's Connect!</h1>  
+                  <img src="./assets/images/me.png" alt="a selfie" id="selfie"/>
+                  <div>
+                    <h2>Let's Connect!</h2>  
                     <p>Email Me at <a href="mailto:tiffany.fu7@gmail.com">tiffany.fu7@gmail.com</a> </p>                 
-                    <p>Feel free to take a look at my Resume</p>
-                    <p>And follow me at my other socials</p>
+                    <p>Feel free to take a look at my Resume and follow my other socials</p>
                     <p>Reach out with any fun opportunities!</p>
-                    {/* <a>Learn more about how I built this</a> */}
+                    <p>(see my <a href="https://github.com/tiffanyfu7/website-2024">repo</a> for this website)</p>
+                  </div>
                 </div>
             </div>}
         </div>    
