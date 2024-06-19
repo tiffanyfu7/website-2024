@@ -5,6 +5,7 @@ Better Documentation to come...
 
 #### Future Ideas
 - [ ] Add Tool Bar
+- [ ] Add App Store
 - [ ] New Features
 - [ ] Dynamic Display (IOS View)
 - [ ] Games
