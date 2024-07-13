@@ -6,6 +6,9 @@
   text-align: left;
 }
 
+#desktop {
+  position: realtive;
+}
 .window {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   opacity: 0.95;
@@ -72,7 +75,7 @@
   background-color: rgb(184, 4, 4);
 }
 
-#terminal {
+#terminal-window {
   background-color: black;
   font-family: "Courier Prime", monospace;
   font-size: 15px;
@@ -93,7 +96,8 @@
   background: none;
 }
 
-#projects {
+#projects-window {
+  z-index: 1000;
   margin-left: 10%;
   margin-top: -110px;
   width: 800px;
@@ -112,7 +116,7 @@
   padding: 20px;
 }
 
-#contact {
+#contact-window {
   background-color: #fcd8bd;
   margin-right: 10%;
   font-size: 16px;

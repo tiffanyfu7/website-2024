@@ -3,7 +3,7 @@ import { TerminalConstants, TerminalHeader, termImg } from '../Contents'
 import Bar from './Bar';
 import Draggable from 'react-draggable';
 
-export const Terminal = () => {
+export const Terminal = ({ handleClick, style }) => {
   const icon = termImg;
 
   const [open, setOpen] = useState(true);
@@ -25,17 +25,18 @@ export const Terminal = () => {
       </div>
     </div>    
       
-    <div>
+    <div style={style}>
       <Draggable nodeRef={nodeRef}> 
         <div ref={nodeRef}>
           {open &&
-            <div id="terminal" className = "window">
+            <div id="terminal-window" className="window" onClick={() => handleClick("terminal-window")}>
               <Bar setParent={wrapperOpen} title="TFHUB Terminal"/>
               <div id="terminal-contents">
                 <TerminalHeader />
                 <TerminalConstants />
               </div>
-            </div>}
+            </div>
+          }
         </div>    
       </Draggable>
     </div>

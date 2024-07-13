@@ -3,7 +3,7 @@ import Bar from './Bar';
 import Draggable from 'react-draggable';
 import { mailImg } from '../Contents';
 
-export const Contact = () => {
+export const Contact = ({ handleClick, style }) => {
   const icon = mailImg;
 
   const [open, setOpen] = useState(true);
@@ -27,9 +27,9 @@ export const Contact = () => {
       
     <div>
       <Draggable nodeRef={nodeRef}> 
-        <div ref={nodeRef}>
+        <div ref={nodeRef} >
           {open &&
-            <div id="contact" className = "window">
+            <div id="contact-window" className="window" onClick={() => handleClick("contact-window")} style={style}>
                 <Bar setParent={wrapperOpen} title="Contact"/>
                 <div id="contact-contents">
                   <img src="./assets/images/me.png" alt="a selfie" id="selfie"/>
