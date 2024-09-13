@@ -6,9 +6,9 @@ const MediaApps = () => {
     
     return (
         <div id = "media-icons">
-            {apps.map((icon) => {
+            {apps.map((icon, i) => {
                 return (
-                    <div className = "icon">
+                    <div className="icon" key={i}>
                         <a href={icon.url} target="_blank">
                             <img src={icon.imgPath} alt={icon.imgAlt} style={{ height: "50px" }} />
                         </a>

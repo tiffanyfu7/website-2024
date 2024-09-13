@@ -20,9 +20,9 @@ const MediaCard = ({ project }) => {
           <Typography gutterBottom variant="h7" component="div">
             {project.title}
           </Typography>
-            {project.tags.map((tag) => { return (
-                <Chip label={tag} variant="outlined" color="secondary" size="small"
-                  style={{ marginRight: "2%" }} /> )
+            {project.tags.map((tag, i) => { return (
+              <Chip label={tag} variant="outlined" color="secondary" size="small"
+                style={{ marginRight: "2%" }} key={i} /> )
             })}
           <Typography variant="body2" color="text.secondary" style={{ padding: "2%" }} >
             {project.description}

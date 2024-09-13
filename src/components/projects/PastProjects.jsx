@@ -9,9 +9,9 @@ export const PastProjects = () => {
     <>
       <h2 style={{marginBottom: "-20px", marginTop: "5px"}}>What I've Worked On</h2>
       <Grid container mt={2}  spacing={2}>
-        {projects.map((obj) => {
+        {projects.map((obj, index) => {
           return (
-            <MediaCard className = "projects" project={obj} />
+            <MediaCard key={index}  className = "projects" project={obj} />
           )})
         }
       </Grid>

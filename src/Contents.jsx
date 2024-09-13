@@ -25,16 +25,6 @@ export const projectsList = [{
     }
 ]
 
-export const factsList = [
-    "I have a bifid uvula.",
-    "Mike Pence and Chuck Taylor went to my high school",
-    "Hats are my favorite accessories",
-    "I play the violin, alto-saxophone, and guitar",
-    "I love ice cream and chocolate chip cookies",
-    "I have great music taste",
-    "Everything Everywhere All at Once is my favorite movie"
-]
-
 export const readingList = [{
         title: "The Almanak of Naval Ravikant",
         author: "Eric Jorgenson"
@@ -42,15 +32,14 @@ export const readingList = [{
         title:"Range: Why Generalists Triumph in a Specialized World",
         author:"David Epstein"
     }, {
-        title:"Norwegian Wood",
-        author:"Haruki Murakami"
+        title:"The Nicomachean Ethics",
+        author:"Aristotle"
     }
 ]
 
 export const CurrentPoints = () => {
     return (
         <ul style={{ listStyleType: "none", padding:"0"}} >
-          <li>⚡ Full-Stack Intern at Voltus, Inc.</li>
           <li>📹 Storytelling on <span> </span>
             <a href="https://www.youtube.com/@tiffanyfu" target="_blank">YouTube</a>
           </li>
@@ -88,23 +77,22 @@ export const TerminalHeader = () => {
 export const TerminalConstants = () => {
     return (<pre>{`tiffanyfu@TFHUB:~$ whoami
 I am a third year CS student at Columbia University!
-I am currently interning @ Voltus.
-I am interested in SWE + HCI + AI.
+Currently an AI/ML Break Through Tech Fellow + Interview Prep Student with CodePath
+I am interested in IoT + SWE + HCI + AI.
 I also enjoy playing tennis + listening to music + traveling.
 
 tiffanyfu@TFHUB:~$ cat Current-Classes
-Currently an AI/ML Fellow at Break Through Tech
-Last semester I took
- 🖥️ Operating Systems
- 🤖 Exploring Artificial Intelligence
- 🦾 Human-Computer Interaction
- 🌐 Integrated Systems Design: IoT
-In the past I've taken: Advanced Systems Programming, DSA, Discrete Math, MTV Calculus
+ 🖥️ Fundamentals of Computer Systems
+ 🤖 Natural Language Processing
+ 🌐 Elements of Data Science
+ 📐 Ordinary Differential Equations
+Previously: Advanced Programming, OS, HCI, IoT, DSA
 
 tiffanyfu@TFHUB:~$ cat Current-Projects
 My current CS Tinkerings
-~ Building a JS Crossword Puzzle Generator
-~ Learning Unreal Engine
+~ Hacking a WatchOS App
+~ Building Mondrianette
+~ Learning CAD
 
 tiffanyfu@TFHUB:~$ exit
 Thanks for Visiting! 👋

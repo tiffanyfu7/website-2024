@@ -5,43 +5,43 @@ import { CurrentProjects } from './CurrentProjects';
 import Draggable from 'react-draggable';
 import { projImg } from '../../Contents';
 
-export const Projects = () => {
+export const Projects = ({ handleClick, style }) => {
   const icon = projImg;
 
-  const [open, setOpen] = useState(true);
+  const [openWindow, setOpenWindow] = useState(true);
 
   const wrapperOpen = useCallback(val => {
-    setOpen(val);
-  }, [setOpen]);
+    setOpenWindow(val);
+  }, [setOpenWindow]);
 
   const nodeRef = useRef(null);
-  
+
   return (
-  <>
+  <div>
     <div className = "app-icons">
       <div className="icon">
-        <button onClick={() => setOpen(true)} style={{ background: "none", outline: "none", border: "none", padding: "0"}}>
+        <button onClick={() => setOpenWindow(true)} style={{ background: "none", outline: "none", border: "none", padding: "0"}}>
           <img src={icon} height={"40px"} />
         </button>
         <p>Projects</p>
       </div>
     </div>  
-    <div>
+    <div  style={style}>
       <Draggable nodeRef={nodeRef}> 
-        <div ref={nodeRef}>
-          {open &&
-            <div id="projects" className = "window">
+        <div ref={nodeRef} style={style}>
+          {openWindow &&
+            <div id="projects-window" className="window" onClick={() => handleClick("projects-window")}>
               <Bar setParent={wrapperOpen} title="Projects"/>
               <div id="project-contents">
                   <PastProjects />              
                   <CurrentProjects />
               </div>
             </div>
-            }
+          }
         </div>   
       </Draggable >
     </div>
-  </>
+  </div>
   )
 }
 
