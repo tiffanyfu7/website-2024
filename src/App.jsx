@@ -1,6 +1,7 @@
 import './App.css'
 import Contact from './components/Contact'
 import MediaApps from './components/MediaApps'
+import Projects from './components/Project/Projects';
 import Terminal from './components/Terminal'
 
 function App() {
