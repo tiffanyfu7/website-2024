@@ -7,6 +7,4 @@
 
 #### Future Ideas
 - [ ] Add Tool Bar
-- [ ] Add App Store
-- [ ] New Features
-- [ ] Games
+- [ ] Fun Games
