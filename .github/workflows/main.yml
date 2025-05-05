@@ -35,6 +35,12 @@ jobs:
         with:
           node-version: 18
           cache: 'npm'
+      - name: Preload Upload Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: dummy
+          path: README.md
+          retention-days: 1
       - name: Install dependencies
         run: npm install
       - name: Build
