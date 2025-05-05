@@ -4,7 +4,7 @@ export const projectsList = [{
         imgPath: "./assets/images/isquared.png",
         imgAlt: "i [squared] Cover Image",
         tags: ["Human-Centered Design"],
-        url: "https://drive.google.com/file/d/1Bm2TyNkDKrPmLmioo1amDHZAp3xDt6Z5/view?usp=sharing",
+        url: "https://vimeo.com/1081604136/40a6777ddb?share=copy",
         urlType: "Video"
     }, {
         title: "📈 WiDS Datathon",
