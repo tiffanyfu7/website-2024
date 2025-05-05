@@ -5,7 +5,7 @@ export const projectsList = [{
         imgAlt: "i [squared] Cover Image",
         tags: ["Human-Centered Design"],
         url: "https://vimeo.com/1081604136/40a6777ddb?share=copy",
-        urlType: "Video"
+        urlType: "Vimeo"
     }, {
         title: "📈 WiDS Datathon",
         description: "Built ML models to predict individual's sex and ADHD Diagnosis. Placed 19 nationally",
