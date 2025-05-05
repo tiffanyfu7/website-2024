@@ -1,4 +1,28 @@
 export const projectsList = [{
+        title: "🕹️ i [squared]",
+        description: "A recreational space designed for students at the new Columbia Engineering building",
+        imgPath: "./assets/images/isquared.png",
+        imgAlt: "i [squared] Cover Image",
+        tags: ["Human-Centered Design"],
+        url: "https://drive.google.com/file/d/1Bm2TyNkDKrPmLmioo1amDHZAp3xDt6Z5/view?usp=sharing",
+        urlType: "Video"
+    }, {
+        title: "📈 WiDS Datathon",
+        description: "Built ML models to predict individual's sex and ADHD Diagnosis. Placed 19 nationally",
+        imgPath: "./assets/images/datathon.png",
+        imgAlt: "Datathon Overview Image",
+        tags: ["ML", "Colab"],
+        url: "https://github.com/wids-teamConscious/WIDS-Datathon-2025?tab=readme-ov-file",
+        urlType: "Github"
+    }, {
+        title: "🤖 CHAD",
+        description: "Integrated HCI application using AI chatbots to streamline healthcare processes",
+        imgPath: "./assets/images/chad.png",
+        imgAlt: "CHAD Prototype Cover Image",
+        tags: ["Streamlit", "HCI"],
+        url: "https://github.com/tiffanyfu7/hci-p2-healthcare-chatbots",
+        urlType: "Github"
+    }, {
         title: "💧 WaterBoy",
         description: "An AI-Powered ChatBot for Babylon Micro-Farms built using React and Assistants API",
         imgPath: "./assets/images/babylon.png",
@@ -77,16 +101,15 @@ export const TerminalHeader = () => {
 export const TerminalConstants = () => {
     return (<pre>{`tiffanyfu@TFHUB:~$ whoami
 I am a third year CS student at Columbia University!
-Currently an AI/ML Break Through Tech Fellow + Interview Prep Student with CodePath
+Incoming Data Engineering Intern @ Meta
 I am interested in IoT + SWE + HCI + AI.
 I also enjoy playing tennis + listening to music + traveling.
 
 tiffanyfu@TFHUB:~$ cat Current-Classes
- 🖥️ Fundamentals of Computer Systems
- 🤖 Natural Language Processing
- 🌐 Elements of Data Science
- 📐 Ordinary Differential Equations
-Previously: Advanced Programming, OS, HCI, IoT, DSA
+ 🖥️ Computer Science Theory
+ 🤖 Machine Learning
+ 🌐 Introduction to Databases
+Previously: Advanced Programming, OS, HCI, IoT, DSA, Fundamentals of Computer Systems, NLP
 
 tiffanyfu@TFHUB:~$ cat Current-Projects
 My current CS Tinkerings

@@ -14,6 +14,7 @@ function App() {
       <div id="desktop">
         <MediaApps />
         <Contact handleClick={handleWindowClick} />
+        <Projects handleClick={handleWindowClick} />
         <Terminal handleClick={handleWindowClick} />
       </div>
 
