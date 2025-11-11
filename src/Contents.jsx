@@ -77,7 +77,7 @@ export const CurrentPoints = () => {
 
 export const TerminalHeader = () => {
     return (<pre>{`Welcome To Tiffany Fu's Personal Website.
-(c) 2024 TF Inc. All Rights Reserved.
+(c) 2025 TF Inc. All Rights Reserved.
 [#########################################################################################]
 [hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh]
 [eeeeeeeeeeeeeeeeeeeeee    eeee    eee         ee    eeee    eee    eeeeeeeeeeeeeeeeeeeeee]
@@ -100,16 +100,14 @@ export const TerminalHeader = () => {
 
 export const TerminalConstants = () => {
     return (<pre>{`tiffanyfu@TFHUB:~$ whoami
-I am a third year CS student at Columbia University!
-Incoming Data Engineering Intern @ Meta
+I am a fourth year CS student at Columbia University!
 I am interested in IoT + SWE + HCI + AI.
-I also enjoy playing tennis + listening to music + traveling.
+I also enjoy playing tennis + listening to music + traveling + filmmaking.
 
 tiffanyfu@TFHUB:~$ cat Current-Classes
- 🖥️ Computer Science Theory
- 🤖 Machine Learning
- 🌐 Introduction to Databases
-Previously: Advanced Programming, OS, HCI, IoT, DSA, Fundamentals of Computer Systems, NLP
+ 🤖 Computational Aspects of Robotics
+ 🌐 Introduction to Quantum Computing
+Previously: Machine Learning, Computer Science Theory, Advanced Programming, OS, HCI, IoT, DSA, Fundamentals of Computer Systems, NLP
 
 tiffanyfu@TFHUB:~$ cat Current-Projects
 My current CS Tinkerings
