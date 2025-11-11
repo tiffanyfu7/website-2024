@@ -32,13 +32,9 @@ export const Contact = ({ handleClick, style }) => {
             <div id="contact-window" className="window" onClick={() => handleClick("contact-window")} style={style}>
                 <Bar setParent={wrapperOpen} title="Contact"/>
                 <div id="contact-contents">
+                  <h2>Let's Connect!</h2> 
+                  <p><a href="mailto:tiffany.fu7@gmail.com">tiffany.fu7@gmail.com</a> </p>                 
                   <img src="./assets/images/me.png" alt="a selfie" id="selfie"/>
-                  <div>
-                    <h2>Let's Connect!</h2>  
-                    <p>Email: <a href="mailto:tiffany.fu7@gmail.com">tiffany.fu7@gmail.com</a> </p>                 
-                    <p>Feel free to take a look at my Resume and follow my other socials. Reach out with any fun opportunities!</p>
-                    <p>(see my <a href="https://github.com/tiffanyfu7/website-2024">repo</a> for this website)</p>
-                  </div>
                 </div>
             </div>}
         </div>    

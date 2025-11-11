@@ -12,10 +12,7 @@
   position: absolute;
   margin-left: auto;
   margin-right: auto;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
+  transform: translate(-50%, -50%);
 }
 
 .icon {
@@ -64,37 +61,45 @@
   background-color: rgb(184, 4, 4);
 }
 
+/* ---------------- */
+/* TERMINAL WINDOW  */
+/* ---------------- */
 #terminal-window {
   background-color: black;
   font-family: "Courier Prime", monospace;
   font-size: 14px;
-  min-width: 820px;
+  min-width: 830px;
   width: 55%;
   height: 470px;
   border-radius: 9px;
-  margin-top: -120px;
+  margin-left: 50%;
+  margin-top: 0px;
 }
 
 #terminal-contents {
   color: rgb(165, 240, 53);
-  padding: 20px;
-  height: 405px;
+  padding: 18px;
+  height: 408px;
   overflow-y: scroll;
 }
 
 #terminal-contents::-webkit-scrollbar {
+  width: 0;
   background: none;
 }
 
+/* ---------------- */
+/* PROJECTS WINDOW  */
+/* ---------------- */
 #projects-window {
   z-index: 1000;
-  margin-left: 30%;
-  margin-top: -110px;
   width: 800px;
-  height: 720px;
+  height: 780px;
   overflow-y: auto;
   background-color: rgb(241, 239, 220);
   border-radius: 8px;
+  margin-left: 67%;
+  margin-top: 200px;
 }
 
 .project-card:hover {
@@ -106,28 +111,61 @@
   padding: 20px;
 }
 
-#contact-window {
-  background-color: #fcd8bd;
-  margin-left: 10%;
-  margin-top: -80px;
+/* ------------ */
+/* FILM WINDOW  */
+/* ------------ */
+#film-window {
+  background-color: #dff3ff;
   font-size: 16px;
   width: 45%;
-  min-width: 400px;
-  min-height: 300px;
+  width: 550px;
+  height: 320px;
   border-radius: 9px;
+  margin-left: 19%;
+  margin-top: 310px;
+}
+
+#film-contents {
+  line-height: 0.75;
+  display: block;
+  padding-left: 20px;
+  height: 180px;
+}
+
+h4{
+  margin-bottom: 0px;
+}
+
+.role-text {
+  color:rgb(54, 54, 54)
+}
+
+/* --------------- */
+/* CONTACT WINDOW  */
+/* --------------- */
+#contact-window {
+  background-color: #fcd8bd;
+  font-size: 16px;
+  width: 45%;
+  width: 250px;
+  height: 400px;
+  border-radius: 9px;
+  margin-left: 21%;
+  margin-top: 100px;
 }
 
 #contact-contents {
-  display: flex;
+  line-height: 0.75;
+  display: block;
   padding: 20px;
   height: 280px;
 }
 
 #selfie {
   border-radius: 5px;
-  width: 30%;
-  height: 80%;
-  margin: 0px 30px 0px 10px;
+  width: 80%;
+  height: 85%;
+  margin: 0px 30px 0px 0px;
 }
 
 #media-icons {

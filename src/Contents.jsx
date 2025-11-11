@@ -49,32 +49,6 @@ export const projectsList = [{
     }
 ]
 
-export const readingList = [{
-        title: "The Almanak of Naval Ravikant",
-        author: "Eric Jorgenson"
-    }, {
-        title:"Range: Why Generalists Triumph in a Specialized World",
-        author:"David Epstein"
-    }, {
-        title:"The Nicomachean Ethics",
-        author:"Aristotle"
-    }
-]
-
-export const CurrentPoints = () => {
-    return (
-        <ul style={{ listStyleType: "none", padding:"0"}} >
-          <li>📹 Storytelling on <span> </span>
-            <a href="https://www.youtube.com/@tiffanyfu" target="_blank">YouTube</a>
-          </li>
-          <li>🏃🏻‍♀️ <a>Training</a> for the NYC Marathon</li>
-          <li>🖋️ Writing on <span> </span>
-            <a href="https://substack.com/@tiffanyfu" target="_blank">Substack</a>
-          </li>
-        </ul>
-    )
-}
-
 export const TerminalHeader = () => {
     return (<pre>{`Welcome To Tiffany Fu's Personal Website.
 (c) 2025 TF Inc. All Rights Reserved.
@@ -107,18 +81,17 @@ I also enjoy playing tennis + listening to music + traveling + filmmaking.
 tiffanyfu@TFHUB:~$ cat Current-Classes
  🤖 Computational Aspects of Robotics
  🌐 Introduction to Quantum Computing
-Previously: Machine Learning, Computer Science Theory, Advanced Programming, OS, HCI, IoT, DSA, Fundamentals of Computer Systems, NLP
+Previously: Machine Learning, Computer Science Theory, Advanced Programming, Operating Systems, 
+Human-Computer Interaction, Internet of Things, DSA, Fundamentals of Computer Systems, NLP
 
 tiffanyfu@TFHUB:~$ cat Current-Projects
 My current CS Tinkerings
-~ Hacking a WatchOS App
-~ Building Mondrianette
+~ Building MemoryPalace
 ~ Learning CAD
 
 tiffanyfu@TFHUB:~$ exit
 Thanks for Visiting! 👋
-Exit the Terminal to Learn More
-    `} </pre>)
+Exit the Terminal to Learn More`} </pre>)
 }
 
 export const mediaIcons = [{
@@ -149,6 +122,7 @@ export const mediaIcons = [{
     }
 ]
 
-export const projImg = "./assets/icons/projects.png"
+export const projImg = "./assets/icons/star.png"
 export const termImg = "./assets/icons/terminal.png"
 export const mailImg = "./assets/icons/mail.png"
+export const filmImg = "./assets/icons/film.png"
