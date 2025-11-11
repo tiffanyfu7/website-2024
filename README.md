@@ -4,7 +4,3 @@
 
 #### Running Application
 `npx vite`
-
-#### Future Ideas
-- [ ] Add Tool Bar
-- [ ] Fun Games
