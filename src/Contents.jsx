@@ -51,7 +51,7 @@ export const projectsList = [{
 
 export const TerminalHeader = () => {
     return (<pre>{`Welcome To Tiffany Fu's Personal Website.
-(c) 2025 TF Inc. All Rights Reserved.
+(c) 2026 TF Inc. All Rights Reserved.
 [#########################################################################################]
 [hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh]
 [eeeeeeeeeeeeeeeeeeeeee    eeee    eee         ee    eeee    eee    eeeeeeeeeeeeeeeeeeeeee]
@@ -76,18 +76,17 @@ export const TerminalConstants = () => {
     return (<pre>{`tiffanyfu@TFHUB:~$ whoami
 I am a fourth year CS student at Columbia University!
 I am interested in IoT + SWE + HCI + AI.
-I also enjoy playing tennis + listening to music + traveling + filmmaking.
+I also enjoy filmmaking + philosophy + baking + fashion.
 
 tiffanyfu@TFHUB:~$ cat Current-Classes
- 🤖 Computational Aspects of Robotics
- 🌐 Introduction to Quantum Computing
-Previously: Machine Learning, Computer Science Theory, Advanced Programming, Operating Systems, 
+ 🤖 Deep Dive for C Programmers
+ 🌐 Computer Networks
+Previously: Quantum Computing, Machine Learning, Computer Science Theory, Advanced Programming, Operating Systems, 
 Human-Computer Interaction, Internet of Things, DSA, Fundamentals of Computer Systems, NLP
 
 tiffanyfu@TFHUB:~$ cat Current-Projects
 My current CS Tinkerings
-~ Building MemoryPalace
-~ Learning CAD
+~ Building scraps.social
 
 tiffanyfu@TFHUB:~$ exit
 Thanks for Visiting! 👋
