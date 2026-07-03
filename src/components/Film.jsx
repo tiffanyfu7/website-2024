@@ -48,7 +48,17 @@ export const Film = ({ handleClick, style }) => {
               >
                 <Bar setParent={wrapperOpen} title="Film" />
                 <div id="film-contents">
-                  <h4>Wide Open Spaces (Feb 26 - Pr)</h4>
+                  <h4>
+                    <a
+                      href="https://www.imdb.com/title/tt43632233/?ref_=nm_ov_bio_lk"
+                      target="_blank"
+                    >
+                      Current State of Matter
+                    </a>{" "}
+                    (Mar 26 - May 26)
+                  </h4>
+                  <p class="role-text">Cinematographer / Editor</p>
+                  <h4>Wide Open Spaces (Feb 26 - Mar 26)</h4>
                   <p class="role-text">Screenwriter</p>
                   <h4>
                     <a href="https://mereinterferencefilm.com">
@@ -66,10 +76,16 @@ export const Film = ({ handleClick, style }) => {
                     (Aug 22 - Pr)
                   </h4>
                   <p class="role-text">Editor / Camera / Producer</p>
-                  <h4>The Olmstead Project (Dec 25)</h4>
+                  <h4>
+                    <a
+                      href="https://www.imdb.com/title/tt43631356/?ref_=nm_ov_bio_lk"
+                      target="_blank"
+                    >
+                      The Olmstead Study
+                    </a>{" "}
+                    (Dec 25)
+                  </h4>
                   <p class="role-text">Sound Recordist</p>
-                  <h4>I'm Sorry for Your Loss (Oct 25)</h4>
-                  <p class="role-text">Co-Editor</p>
                   <h4>
                     <a
                       href="https://www.youtube.com/watch?v=bKirfxMeYf4"

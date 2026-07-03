@@ -73,53 +73,64 @@ export const TerminalHeader = () => {
 } 
 
 export const TerminalConstants = () => {
-    return (<pre>{`tiffanyfu@TFHUB:~$ whoami
-I am a fourth year CS student at Columbia University!
-I am interested in IoT + SWE + HCI + AI.
+    return (
+      <pre>
+        {`tiffanyfu@TFHUB:~$ whoami
+I am recent CS grad of Columbia University!
+I am interested in SWE + IoT + HCI + AI.
 I also enjoy filmmaking + philosophy + baking + fashion.
-
-tiffanyfu@TFHUB:~$ cat Current-Classes
- 🤖 Deep Dive for C Programmers
- 🌐 Computer Networks
-Previously: Quantum Computing, Machine Learning, Computer Science Theory, Advanced Programming, Operating Systems, 
-Human-Computer Interaction, Internet of Things, DSA, Fundamentals of Computer Systems, NLP
 
 tiffanyfu@TFHUB:~$ cat Current-Projects
 My current CS Tinkerings
 ~ Building scraps.social
+Book Club Reading
+~ The Ethics of Ambiguity
 
 tiffanyfu@TFHUB:~$ exit
 Thanks for Visiting! 👋
-Exit the Terminal to Learn More`} </pre>)
+Exit the Terminal to Learn More`}{" "}
+      </pre>
+    );
 }
 
-export const mediaIcons = [{
-        title: "Resume",
-        imgPath: "./assets/icons/resume.png",
-        imgAlt: "Resume Icon",
-        url: "./resume.pdf"
-    }, {
-        title: "GitHub",
-        imgPath: "./assets/icons/github.png",
-        imgAlt: "GitHub Icon",
-        url: "https://github.com/tiffanyfu7/"
-    }, {
-        title: "LinkedIn",
-        imgPath: "./assets/icons/linkedin.png",
-        imgAlt: "LinkedIn Icon",
-        url: "https://www.linkedin.com/in/tiffanyfu7/"
-    }, {
-        title: "YouTube",
-        imgPath: "./assets/icons/youtube.png",
-        imgAlt: "YouTube Icon",
-        url: "https://www.youtube.com/@tiffanyfu"
-    }, {
-        title: "Substack",
-        imgPath: "./assets/icons/substack.png",
-        imgAlt: "Substack Icon",
-        url: "https://substack.com/@tiffanyfu"
-    }
-]
+export const mediaIcons = [
+  {
+    title: "Resume",
+    imgPath: "./assets/icons/resume.png",
+    imgAlt: "Resume Icon",
+    url: "./resume.pdf",
+  },
+  {
+    title: "GitHub",
+    imgPath: "./assets/icons/github.png",
+    imgAlt: "GitHub Icon",
+    url: "https://github.com/tiffanyfu7/",
+  },
+  {
+    title: "LinkedIn",
+    imgPath: "./assets/icons/linkedin.png",
+    imgAlt: "LinkedIn Icon",
+    url: "https://www.linkedin.com/in/tiffanyfu7/",
+  },
+  {
+    title: "YouTube",
+    imgPath: "./assets/icons/youtube.png",
+    imgAlt: "YouTube Icon",
+    url: "https://www.youtube.com/@tiffanyfu",
+  },
+  {
+    title: "Substack",
+    imgPath: "./assets/icons/substack.png",
+    imgAlt: "Substack Icon",
+    url: "https://substack.com/@tiffanyfu",
+  },
+  {
+    title: "IMDb",
+    imgPath: "./assets/icons/imdb.png",
+    imgAlt: "IMDb Icon",
+    url: "https://www.imdb.com/name/nm18655589/?ref_=up_rvi_i_1",
+  },
+];
 
 export const projImg = "./assets/icons/star.png"
 export const termImg = "./assets/icons/terminal.png"
