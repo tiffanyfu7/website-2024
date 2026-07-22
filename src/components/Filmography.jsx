@@ -3,8 +3,9 @@ import Bar from "./Bar";
 import Draggable from "react-draggable";
 import { filmImg, films } from "../Contents";
 import "../styling/FilmStrip.css";
+import { CardMedia } from "@mui/material";
 
-export const FilmStrip = ({ handleClick, style }) => {
+export const Filmography = ({ handleClick, style }) => {
   const icon = filmImg;
 
   const [open, setOpen] = useState(true);
@@ -33,7 +34,7 @@ export const FilmStrip = ({ handleClick, style }) => {
           >
             <img src={icon} height={"50px"} />
           </button>
-          <p>FilmStrip</p>
+          <p>Filmography</p>
         </div>
       </div>
 
@@ -47,23 +48,38 @@ export const FilmStrip = ({ handleClick, style }) => {
                 onClick={() => handleClick("film-strip-window")}
                 style={style}
               >
-                <Bar setParent={wrapperOpen} title="Film Strip" />
+                <Bar setParent={wrapperOpen} title="Filmography" />
                 <div className="film-strip-container">
-                  {films.map((film) => {
-                    return (
-                      <div className="strip-item" key={film.title}>
-                        <div className="strip-holes" />
-                        <div className="film-box-container">
+                  {films.map((film) => (
+                    <div className="strip-item" key={film.title}>
+                      <div className="strip-holes" />
+
+                      <div className="film-box-container">
+                        <a
+                          href={film.link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
                           <div className="film-box">
-                            <h4>{film.title}</h4>
-                            <p>{film.role}</p>
-                            <h5>{film.date}</h5>
+                            <CardMedia
+                              component="img"
+                              image={film.image}
+                              alt={film.title}
+                              className="film-image"
+                            />
+
+                            <div className="film-overlay">
+                              <h3>{film.title}</h3>
+                              <h5>{film.date}</h5>
+                              <p>{film.role}</p>
+                            </div>
                           </div>
-                        </div>
-                        <div className="strip-holes" />
+                        </a>
                       </div>
-                    );
-                  })}
+
+                      <div className="strip-holes" />
+                    </div>
+                  ))}
                 </div>
               </div>
             )}
@@ -74,4 +90,4 @@ export const FilmStrip = ({ handleClick, style }) => {
   );
 };
 
-export default FilmStrip;
+export default Filmography;

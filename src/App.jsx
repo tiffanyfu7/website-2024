@@ -1,6 +1,6 @@
 import "./App.css";
 import Contact from "./components/Contact";
-import FilmStrip from "./components/FilmStrip";
+import Filmography from "./components/Filmography";
 import MediaApps from "./components/MediaApps";
 import Projects from "./components/Project/Projects";
 import Terminal from "./components/Terminal";
@@ -16,7 +16,7 @@ function App() {
         <MediaApps />
         <Contact handleClick={handleWindowClick} />
         <Projects handleClick={handleWindowClick} />
-        <FilmStrip handleClick={handleWindowClick} />
+        <Filmography handleClick={handleWindowClick} />
         <Terminal handleClick={handleWindowClick} />
       </div>
 

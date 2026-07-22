@@ -1,56 +1,69 @@
-export const projectsList = [{
-        title: "🕹️ i [squared]",
-        description: "A recreational space designed for students at the new Columbia Engineering building",
-        imgPath: "./assets/images/isquared.png",
-        imgAlt: "i [squared] Cover Image",
-        tags: ["Human-Centered Design"],
-        url: "https://vimeo.com/1081604136/40a6777ddb?share=copy",
-        urlType: "Vimeo"
-    }, {
-        title: "📈 WiDS Datathon",
-        description: "Built ML models to predict individual's sex and ADHD Diagnosis. Placed 19 nationally",
-        imgPath: "./assets/images/datathon.png",
-        imgAlt: "Datathon Overview Image",
-        tags: ["ML", "Colab"],
-        url: "https://github.com/wids-teamConscious/WIDS-Datathon-2025?tab=readme-ov-file",
-        urlType: "Github"
-    }, {
-        title: "🤖 CHAD",
-        description: "Integrated HCI application using AI chatbots to streamline healthcare processes",
-        imgPath: "./assets/images/chad.png",
-        imgAlt: "CHAD Prototype Cover Image",
-        tags: ["Streamlit", "HCI"],
-        url: "https://github.com/tiffanyfu7/hci-p2-healthcare-chatbots",
-        urlType: "Github"
-    }, {
-        title: "💧 WaterBoy",
-        description: "An AI-Powered ChatBot for Babylon Micro-Farms built using React and Assistants API",
-        imgPath: "./assets/images/babylon.png",
-        imgAlt: "WaterBoy Homepage",
-        tags: ["React", "OpenAI", "Git"],
-        url: "https://github.com/tiffanyfu7/babylon-microfarms-chatbot",
-        urlType: "Github"
-    }, {
-        title: "🚗 TripSplit",
-        description: "A hackathon project to track, calculate, and display shared expenses on a group trip.",
-        imgPath: "./assets/images/tripsplit.png",
-        imgAlt: "TripSplit Homepage",
-        tags: ["HTML/CSS/JS", "Firebase"],
-        url: "https://github.com/tiffanyfu7/devfestproject",
-        urlType: "GitHub"
-    }, {
-        title: "🖼️ Media Portfolio",
-        description: "A compilation of my media and communications passion projects.",
-        imgPath: "./assets/images/cnwt.JPG",
-        imgAlt: "A Graphic Design",
-        tags: ["Adobe", "Design", "Video"],
-        url: "./portfolio.pdf",
-        urlType: "Portfolio"
-    }
-]
+export const projectsList = [
+  {
+    title: "🕹️ i [squared]",
+    description:
+      "A recreational space designed for students at the new Columbia Engineering building",
+    imgPath: "./assets/images/isquared.png",
+    imgAlt: "i [squared] Cover Image",
+    tags: ["Human-Centered Design"],
+    url: "https://vimeo.com/1081604136/40a6777ddb?share=copy",
+    urlType: "Vimeo",
+  },
+  {
+    title: "📈 WiDS Datathon",
+    description:
+      "Built ML models to predict individual's sex and ADHD Diagnosis. Placed 19 nationally",
+    imgPath: "./assets/images/datathon.png",
+    imgAlt: "Datathon Overview Image",
+    tags: ["ML", "Colab"],
+    url: "https://github.com/wids-teamConscious/WIDS-Datathon-2025?tab=readme-ov-file",
+    urlType: "Github",
+  },
+  {
+    title: "🤖 CHAD",
+    description:
+      "Integrated HCI application using AI chatbots to streamline healthcare processes",
+    imgPath: "./assets/images/chad.png",
+    imgAlt: "CHAD Prototype Cover Image",
+    tags: ["Streamlit", "HCI"],
+    url: "https://github.com/tiffanyfu7/hci-p2-healthcare-chatbots",
+    urlType: "Github",
+  },
+  {
+    title: "💧 WaterBoy",
+    description:
+      "An AI-Powered ChatBot for Babylon Micro-Farms built using React and Assistants API",
+    imgPath: "./assets/images/babylon.png",
+    imgAlt: "WaterBoy Homepage",
+    tags: ["React", "OpenAI", "Git"],
+    url: "https://github.com/tiffanyfu7/babylon-microfarms-chatbot",
+    urlType: "Github",
+  },
+  {
+    title: "🚗 TripSplit",
+    description:
+      "A hackathon project to track, calculate, and display shared expenses on a group trip.",
+    imgPath: "./assets/images/tripsplit.png",
+    imgAlt: "TripSplit Homepage",
+    tags: ["HTML/CSS/JS", "Firebase"],
+    url: "https://github.com/tiffanyfu7/devfestproject",
+    urlType: "GitHub",
+  },
+  {
+    title: "🖼️ Media Portfolio",
+    description:
+      "A compilation of my media and communications passion projects.",
+    imgPath: "./assets/images/cnwt.JPG",
+    imgAlt: "A Graphic Design",
+    tags: ["Adobe", "Design", "Video"],
+    url: "./portfolio.pdf",
+    urlType: "Portfolio",
+  },
+];
 
 export const TerminalHeader = () => {
-    return (<pre>{`Welcome To Tiffany Fu's Personal Website.
+  return (
+    <pre>{`Welcome To Tiffany Fu's Personal Website.
 (c) 2026 TF Inc. All Rights Reserved.
 [#########################################################################################]
 [hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh]
@@ -69,13 +82,13 @@ export const TerminalHeader = () => {
 [yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy]
 [!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!]
         `}</pre>
-    )
-} 
+  );
+};
 
 export const TerminalConstants = () => {
-    return (
-      <pre>
-        {`tiffanyfu@TFHUB:~$ whoami
+  return (
+    <pre>
+      {`tiffanyfu@TFHUB:~$ whoami
 I am recent CS grad of Columbia University!
 I am interested in SWE + IoT + HCI + AI.
 I also enjoy filmmaking + philosophy + baking + fashion.
@@ -89,9 +102,9 @@ Book Club Reading
 tiffanyfu@TFHUB:~$ exit
 Thanks for Visiting! 👋
 Exit the Terminal to Learn More`}{" "}
-      </pre>
-    );
-}
+    </pre>
+  );
+};
 
 export const mediaIcons = [
   {
@@ -132,53 +145,45 @@ export const mediaIcons = [
   },
 ];
 
-
 export const films = [
   {
     title: "Current State of Matter",
     date: "(Mar 26 - May 26)",
     role: "Cinematographer / Editor",
-    image: "",
+    image: "./assets/filmography/csom.png",
     link: "https://www.imdb.com/title/tt43632233/?ref_=nm_ov_bio_lk",
   },
   {
     title: "Mere Interference",
     date: "(Oct 25 - Pr)",
     role: "Writer / Director / Producer",
-    image: "",
+    image: "./assets/filmography/mi.png",
     link: "https://mereinterferencefilm.com",
   },
   {
     title: "The Olmstead Study",
     date: "(Dec 25)",
     role: "Sound Recordist",
-    image: "",
+    image: "./assets/filmography/olmstead.png",
     link: "https://www.imdb.com/title/tt43631356/?ref_=nm_ov_bio_lk",
   },
   {
     title: "Montage",
-    date: "(Apr - May 25)",
+    date: "(Apr 25 - May 25)",
     role: "Editor",
-    image: "",
+    image: "./assets/filmography/montage.png",
     link: "https://www.youtube.com/watch?v=bKirfxMeYf4",
-  },
-  {
-    title: "Digital Postcard",
-    date: "(Aug 22 - Pr)",
-    role: "Editor / Camera / Producer",
-    image: "",
-    link: "https://youtube.com/playlist?list=PLjtBHPqnsLEysQU-vPrykwHz9WDeGeUhg&si=_NTZqpFGdMkoq3ig",
   },
   {
     title: "Wide Open Spaces",
     date: "(Feb 26 - Mar 26)",
     role: "Screenwriter",
-    image: "",
+    image: "./assets/filmography/wos.png",
     link: "",
   },
 ];
 
-export const projImg = "./assets/icons/star.png"
-export const termImg = "./assets/icons/terminal.png"
-export const mailImg = "./assets/icons/mail.png"
-export const filmImg = "./assets/icons/film.png"
+export const projImg = "./assets/icons/star.png";
+export const termImg = "./assets/icons/terminal.png";
+export const mailImg = "./assets/icons/mail.png";
+export const filmImg = "./assets/icons/film.png";
