@@ -1,0 +1,54 @@
+.film-strip-container {
+  width: 400px;
+  margin: 20px auto 20px auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: black;
+  border-radius: 5px;
+}
+
+.strip-item {
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.strip-holes {
+  background-color: green;
+  width: 20px;
+  background:
+    linear-gradient(0deg, #000 25%, transparent 25%, transparent 75%, #000 75%),
+    linear-gradient(
+      0deg,
+      #dff3ff 25%,
+      transparent 25%,
+      transparent 75%,
+      #dff3ff 75%
+    ),
+    linear-gradient(
+      0deg,
+      #dff3ff 25%,
+      transparent 25%,
+      transparent 75%,
+      #dff3ff 75%
+    );
+  background-size: 20px 30px;
+  background-position:
+    0 0,
+    15px 15px;
+}
+
+.film-box-container {
+  width: 320px;
+  padding: 15px;
+}
+
+.film-box {
+  background-color: brown;
+  width: 290px;
+  aspect-ratio: 4/3;
+  border-radius: 20px;
+  justify-content: center;
+  text-align: center;
+}

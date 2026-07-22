@@ -132,6 +132,52 @@ export const mediaIcons = [
   },
 ];
 
+
+export const films = [
+  {
+    title: "Current State of Matter",
+    date: "(Mar 26 - May 26)",
+    role: "Cinematographer / Editor",
+    image: "",
+    link: "https://www.imdb.com/title/tt43632233/?ref_=nm_ov_bio_lk",
+  },
+  {
+    title: "Mere Interference",
+    date: "(Oct 25 - Pr)",
+    role: "Writer / Director / Producer",
+    image: "",
+    link: "https://mereinterferencefilm.com",
+  },
+  {
+    title: "The Olmstead Study",
+    date: "(Dec 25)",
+    role: "Sound Recordist",
+    image: "",
+    link: "https://www.imdb.com/title/tt43631356/?ref_=nm_ov_bio_lk",
+  },
+  {
+    title: "Montage",
+    date: "(Apr - May 25)",
+    role: "Editor",
+    image: "",
+    link: "https://www.youtube.com/watch?v=bKirfxMeYf4",
+  },
+  {
+    title: "Digital Postcard",
+    date: "(Aug 22 - Pr)",
+    role: "Editor / Camera / Producer",
+    image: "",
+    link: "https://youtube.com/playlist?list=PLjtBHPqnsLEysQU-vPrykwHz9WDeGeUhg&si=_NTZqpFGdMkoq3ig",
+  },
+  {
+    title: "Wide Open Spaces",
+    date: "(Feb 26 - Mar 26)",
+    role: "Screenwriter",
+    image: "",
+    link: "",
+  },
+];
+
 export const projImg = "./assets/icons/star.png"
 export const termImg = "./assets/icons/terminal.png"
 export const mailImg = "./assets/icons/mail.png"

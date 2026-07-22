@@ -1,13 +1,13 @@
-import './App.css'
-import Contact from './components/Contact'
-import Film from './components/Film';
-import MediaApps from './components/MediaApps'
-import Projects from './components/Project/Projects';
-import Terminal from './components/Terminal'
+import "./App.css";
+import Contact from "./components/Contact";
+import FilmStrip from "./components/FilmStrip";
+import MediaApps from "./components/MediaApps";
+import Projects from "./components/Project/Projects";
+import Terminal from "./components/Terminal";
 
 function App() {
   const handleWindowClick = (id) => {
-    setActiveWindowId(id);
+    // setActiveWindowId(id);
   };
 
   return (
@@ -16,17 +16,17 @@ function App() {
         <MediaApps />
         <Contact handleClick={handleWindowClick} />
         <Projects handleClick={handleWindowClick} />
-        <Film handleClick={handleWindowClick} />
+        <FilmStrip handleClick={handleWindowClick} />
         <Terminal handleClick={handleWindowClick} />
       </div>
 
       <div id="phone">
-        <div style={{backgroundColor:"black"}}>
+        <div style={{ backgroundColor: "black" }}>
           <MediaApps />
         </div>
       </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
